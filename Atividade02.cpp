@@ -20,7 +20,7 @@ int main() {
         b = next;
     }
 
-    cout << "Sum of even Fibonacci numbers up to " << max << " is: " << soma << endl;
+    cout << "Soma dos números pares sem exceder 4 milhões é :" << soma << endl;
 
     return 0;
 }
