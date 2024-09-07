@@ -24,7 +24,7 @@ int main() {
         i++;
     }
 
-    cout << primo.back();
+    cout << "O 10001 número primo é: " << primo.back();
 
     return 0;
 }
