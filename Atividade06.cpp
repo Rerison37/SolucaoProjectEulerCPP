@@ -20,6 +20,6 @@ int main() {
     square_sum = square_sum * square_sum;
     int diference = square_sum - sum_squares;
     
-    cout << "The diference is: " << diference << endl;
+    cout << "soma dos quadrados dos primeiros cem números naturais e o quadrado da soma: " << diferenca << endl;
     
 }
