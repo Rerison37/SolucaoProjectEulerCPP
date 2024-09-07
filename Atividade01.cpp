@@ -23,5 +23,5 @@ int main()
         soma += all[i];
     }
 
-    cout << soma << endl;
+    cout << "A soma de todos os multiplos de 3 e 5 meno que 1000 é: " << soma << endl;
 }
