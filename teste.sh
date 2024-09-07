@@ -16,13 +16,13 @@ compilar_e_executar() {
 }
 
 echo "Escolha uma atividade para testar:"
-for i in $(seq -w 1 10); do
+for i in $(seq -w 1 11); do
     echo "$i. Atividade$i"
 done
 echo "0. Sair"
 read -p "Digite o número da atividade: " escolha
 
-if [ "$escolha" -ge 1 ] && [ "$escolha" -le 10 ]; then
+if [ "$escolha" -ge 1 ] && [ "$escolha" -le 11 ]; then
     arquivo_codigo="Atividade$(printf "%02d" $escolha).cpp"
 elif [ "$escolha" -eq 0 ]; then
     echo "Saindo..."
