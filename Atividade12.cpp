@@ -14,7 +14,7 @@ int contarDivisores(int n) {
     return contagem;
 }
 
-int primeiroTriangularComMaisDe500Divisores() {
+int primeiroTriangular() {
     int n = 1;
     while (true) {
         long long numeroTriangular = n * (n + 1) / 2;
