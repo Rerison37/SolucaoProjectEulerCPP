@@ -29,7 +29,7 @@ int primeiroTriangular() {
 }
 
 int main() {
-    int resultado = primeiroTriangularComMaisDe500Divisores();
+    int resultado = primeiroTriangular();
     std::cout << "O primeiro número triangular com mais de 500 divisores é: " << resultado << std::endl;
     return 0;
 }
